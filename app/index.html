@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Ocassio</title>
+	<link rel="stylesheet" href="css/animate.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+
+
+	<!-- 'shim' para compatibilidade do HTML5 com os IEs antigos -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"</script>
+	  	<![endif]-->
+	  </head>
+	  <body>
+    <nav class="navbar navbar-fixed-top">
+    <div class="container">
+     <!-- MENU CELULAR -->
+     <div class="row visible-sm visible-xs">
+      <ul class="nav nav-pills col-md-12 menu">
+        <li class=""><a href="index.html">Occasio</a></li>
+        <li class="cor-menu-li pull-right"><a  href="#" id="menu" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span> MENU </a>
+          <ul class="dropdown-menu menu2 " role="menu" aria-labelledby="menu">
+						<li><a href="#sobre-nos"> Sobre nós</a></li>
+           <li><a href="#servicos"> Serviços</a></li>
+           <li><a href="#contato"> Contato</a></li>
+         </ul>
+       </li>
+     </ul>
+   </div>
+   <!-- FIM MENU CELULAR-->
+   <!-- MENU NORMAL -->
+   <div class="navbar  hidden-xs hidden-sm">
+     <ul class="nav nav-pills menu">
+			 <li class="pull-left"><a href="index.html"> <img src="img/logo.png"/></a>
+			<li class="pull-right"><a href="#contato"> Contato</a></li>
+			<li class="pull-right"><a href="#servicos"> Serviços</a></li>
+       <li class="pull-right"><a href="#sobre-nos"> Sobre nós</a></li>
+
+
+       </ul>
+   </div>
+   <!-- FIM MENU NORMAL -->
+ </div>
+</nav>
+<section class="home" id="home">
+	<div class="centraliza col-md-12">
+		<img src="img/logo-png.png" alt="Logo da empresa Occasio">
+</div>
+
+</section>
+<section class="text-center">
+
+		<div class="carousel slide" id="myCarousel" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" href="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" href="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<h1>Nós contratamos os melhores</h1>
+				</div>
+				<div class="item">
+					<h1>Nós contratamos os melhores</h2>
+					</div>
+					<div class="item">
+						<h1>Nós contratamos os melhores</h2>
+						</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="sobre-nos" id="sobre-nos">
+		<div class="container">
+			<h2>Sobre nós</h2>
+
+			<ul>
+				<li class="col-md-6">
+					<p>
+						Occasio S/A ajuda as empresas a lutar contra o cybercrime, proteger os dados e reduzir o risco de
+
+						segurança, referência internacional por sua equipe de especialistas que reportaram falhas para as
+
+						TOP 10 empresas mais renomadas do mundo. Nós garantimos os melhores resultados para
+
+						atender às suas demandas, com centro de operações 24x7x365 e laboratórios de P&amp;D
+
+						complementado com parceiros estratégicos ao redor do globo.
+					</p>
+					<p>
+						Nossa excelência técnica e a capacidade de superar desafios, tem se revelado uma combinação
+
+						vencedora para os problemas atuais de segurança da informação. Para a Occasio cada empresa é
+
+						única, independente do segmento, atuação e histórico.
+					</p>
+				</li>
+
+				<li class="col-md-5">
+					<img src="img/o_fedora.png" alt="">
+				</li>
+			</ul>
+
+		</div>
+
+</section>
+
+<section class="servicos" id="servicos">
+	<div class="container">
+
+
+		<ul>
+			<li class="col-md-6">
+<h2 class="servico2">Nós recrutamos os melhores</h2>
+
+	<p>
+		Nossa equipe de hackers éticos estão distribúidos em doze países e são altamente experientes,
+
+		reportaram falhas para as TOP 10 empresas mais renomadas do mundo.
+	</p>
+	<p>
+		Nos escolhemos os melhores especialistas da indústria de segurança da informação para evitar
+
+		que atacantes causem prejuízos financeiros a sua organização, identificamos vulnerabilidades para
+
+		ajudar você antecipar-se das ameaças de amanhã.</p>
+
+		<p>Estamos sempre em busca dos top talentos da atualidade. Trabalhe conosco.</p>
+
+
+			</li>
+
+			<li class="col-md-5">
+
+<h2 class="servico">Offensive Labs</h2>
+
+				<p>
+					Núcleo de estudos avançados que atua na pesquisa e desenvolvimento de técnicas e ferramentas
+
+					de segurança ofensiva. Com uma visão recolhidas a partir de nossas pesquisas de segurança
+
+					avançada, testes de penetração, investigação forense e resposta a incidentes, a equipe de
+
+					segurança de elite da Occasio, OffensiveLabs®, entende como os atacantes pensam para estar um
+
+					passo a frente do seu adversário.
+				</p>
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</section>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('#myCarousel').carousel({interval: 2000});
+        $('#myCarousel').on('slid', function() {
+            var to_slide = $('.carousel-item.active').attr('data-slide-no');
+            $('.myCarousel-target.active').removeClass('active');
+            $('.carousel-indicators [data-slide-to=' + to_slide + ']').addClass('active');
+        });
+        $('.myCarousel-target').on('click', function() {
+            $('#myCarousel').carousel(parseInt($(this).attr('data-slide-to')));
+            $('.myCarousel-target.active').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+</script>
+</html>
