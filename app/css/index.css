@@ -124,30 +124,29 @@ color:white;
   background: url(img/papeldeparede.jpg) center center;
   background-repeat:no-repeat;
   background-size:100% 100%;
+  font-size:18px;
+}
+
+#servicos-row {
+  padding:50px 0px 50px 0px;
 }
 
 @media screen and (min-width: 576px) {
   .sobre-nos {
-    float: left;
   }
   .servico {
-
     margin-top: 20px;
   }
   .servico2 {
   }
   .servicos {
-    float: left;
+  }
+  #pentest div p {
+    font-size:18px;
   }
 }
 .servico{
 
-  padding-top: 70px;
-  font-size: 45px;
-  text-align: left;
-  padding-left: 55px;
-  color: #000;
-  text-shadow: .04em 0 #000;
 }
 .servicos ul {
   list-style: none;
@@ -163,10 +162,54 @@ color:white;
   text-align: justify;
 }
 .servico2{
-  font-size: 45px;
-  padding-left: 35px;
-  color: #000;
-  text-shadow: .04em 0 #000;
+}
 
-  padding-top: 70px;
+#slogan {
+  font-style:italic;
+}
+
+#pentest {
+  padding:50px 0 50px 0;
+  background-color:#252525;
+  color: white;
+}
+
+#pentest div h1 {
+  margin-top:0px;
+  padding-top:30px;
+
+}
+
+.box {
+  font-size:42px;
+}
+
+.box-label {
+  display:inline;
+}
+
+#whitebox {
+  background-color:black;
+}
+
+#blackbox {
+  color:#252525;
+  background-color:white;
+}
+
+#greybox {
+
+  background-color:#a5a5a5;
+}
+
+#greybox-title {
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+.check {
+  color:#4be23d;
+}
+#pentest-footer {
+  margin-top:20px;
 }

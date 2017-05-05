@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href="vendor/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
 
 
     <!-- 'shim' para compatibilidade do HTML5 com os IEs antigos -->
@@ -48,6 +49,7 @@
     <section class="home" id="home">
       <div class="centraliza col-md-12">
         <img src="img/logo-png.png" alt="Logo da empresa Occasio">
+        <h3 id="slogan">For a more secure world</h3>
       </div>
 
     </section>
@@ -73,8 +75,7 @@
           </div>
 
         </div>
-      </div>
-    </section>
+      </div> </section>
 
     <section class="sobre-nos" id="sobre-nos">
       <div class="container">
@@ -112,52 +113,138 @@
     </section>
 
     <section class="servicos" id="servicos">
-      <div class="container">
+      <div class="row" id="servicos-row">
+
+        <div class="col-md-4 col-md-offset-2">
+          <h2 class="servico-title">Nós recrutamos os melhores</h2>
+
+          <p>
+          Nossa equipe de hackers éticos estão distribúidos em doze países e são altamente experientes,
+          reportaram falhas para as TOP 10 empresas mais renomadas do mundo.
+          </p>
+          <p>
+          Nos escolhemos os melhores especialistas da indústria de segurança da informação para evitar
+          que atacantes causem prejuízos financeiros a sua organização, identificamos vulnerabilidades para
+          ajudar você antecipar-se das ameaças de amanhã.</p>
+          <p>Estamos sempre em busca dos top talentos da atualidade. Trabalhe conosco.</p>
+        </div>
+
+        <div class="col-md-4">
+          <h2 class="servico-title">Offensive Labs</h2>
+          <p>
+          Núcleo de estudos avançados que atua na pesquisa e desenvolvimento de técnicas e ferramentas
+          de segurança ofensiva. Com uma visão recolhidas a partir de nossas pesquisas de segurança
+          avançada, testes de penetração, investigação forense e resposta a incidentes, a equipe de
+          segurança de elite da Occasio, OffensiveLabs®, entende como os atacantes pensam para estar um
+          passo a frente do seu adversário.
+          </p>
 
 
-        <ul>
-          <li class="col-md-6">
-            <h2 class="servico2">Nós recrutamos os melhores</h2>
-
-            <p>
-            Nossa equipe de hackers éticos estão distribúidos em doze países e são altamente experientes,
-
-            reportaram falhas para as TOP 10 empresas mais renomadas do mundo.
-            </p>
-            <p>
-            Nos escolhemos os melhores especialistas da indústria de segurança da informação para evitar
-
-            que atacantes causem prejuízos financeiros a sua organização, identificamos vulnerabilidades para
-
-            ajudar você antecipar-se das ameaças de amanhã.</p>
-
-            <p>Estamos sempre em busca dos top talentos da atualidade. Trabalhe conosco.</p>
-
-
-          </li>
-
-          <li class="col-md-5">
-
-            <h2 class="servico">Offensive Labs</h2>
-
-            <p>
-            Núcleo de estudos avançados que atua na pesquisa e desenvolvimento de técnicas e ferramentas
-
-            de segurança ofensiva. Com uma visão recolhidas a partir de nossas pesquisas de segurança
-
-            avançada, testes de penetração, investigação forense e resposta a incidentes, a equipe de
-
-            segurança de elite da Occasio, OffensiveLabs®, entende como os atacantes pensam para estar um
-
-            passo a frente do seu adversário.
-            </p>
-
-
-          </li>
-        </ul>
-
+        </div>
       </div>
 
+    </section>
+    <section id="pentest">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-2">
+
+          <h1>Teste de Penetração</h1>
+          <p>
+          Os testes de penetração (Pentest) são uma simulação gerenciada e controlada de uma invasão real
+          dos sistemas e proporciona uma experiência realista do tipo de intrusões que podem ser feitas em
+          seus sistemas de informação.
+          </p>
+          <p>
+          Nossos testes de segurança descobrem exatamente como adversários pensam e agem, o que nos
+          permite demonstrar como um invasor ganha acesso não autorizado a sistemas e dados sensíveis
+          de seus negócios, assim você sabe exatamente como se proteger contra intrusões reais.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-10 col-md-offset-2">
+          <h1>Modalidades de Pentest</h1>
+          <div class="row">
+          <div id="whitebox" class="col-xs-12 col-md-5">
+            <i class="fa fa-cube fa-5x"></i>
+            <h2 class="box-label">White Box</h2>
+            <p>
+            No teste White box é fornecido todas informações sobre o ambiente alvo a ser testado, reduzindo
+            o tempo gasto para descobrir essas informações.
+            </p>
+          </div>
+          <div id="blackbox" class="col-xs-12 col-md-5">
+            <i class="fa fa-cube fa-5x" ></i>
+              <h2 class="box-label">Black Box</h2>
+              <p>
+              O teste black box é o mais próximo de um ataque real pois não é fornecido nenhuma informação
+              sobre o ambiente alvo a ser testado.
+              </p>
+          </div>
+          </div> <!-- ROW -->
+          <div class="row">
+            <div id="greybox" class="col-xs-12 col-md-10">
+              <div id="greybox-title" class="text-center">
+                <i class="fa fa-cube fa-5x"></i>
+                <h2 class="text-center box-label">Grey Box</h2>
+              </div>
+              <div id="greybox-text" class="text-center">
+                <p>
+                No teste gray box é fornecido parte das informações sobre o ambiente alvo a ser testado. Ele fica
+                no meio termo entre os testes blackbox e whitebox.
+                </p>
+                <div id="greybox-checks" class="text-left col-md-12 ">
+                  <div class="row">
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest Interno</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest Externo</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest em infraestrutura</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest em aplicações</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest em Wireless</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest em Mobile</h3>
+                  </div>
+                  <div class="col-md-4">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Pentest em PCI Compliance</h3>
+                  </div>
+                  <div class="col-md-8">
+                    <i class="fa fa-check check fa-5x"></i>
+                    <h3 class="box-label">Analise  de Vulnerabilidades</h3>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div id="pentest-footer" class="col-xs-12 text-center">
+                      <p>O Requisito 11.2 PCI-DSS exige que seja feita análise de vulnerabilidades interna e externa
+                      trimestralmente.
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
     </section>
 
 
