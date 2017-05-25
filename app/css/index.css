@@ -213,3 +213,55 @@ color:white;
 #pentest-footer {
   margin-top:20px;
 }
+
+#contact {
+  font-size:22px;
+  font-family:Helvetica;
+}
+#contact .row div {
+  margin-top:20px;
+}
+
+#protection {
+
+  background: url(img/papeldeparede.jpg) center;
+  font-size:22px;
+}
+
+#protection h1 {
+  margin-bottom:40px;
+}
+
+#protection div div div {
+  margin-bottom:50px;
+}
+
+#threat-management {
+  font-size:18px;
+  color:white;
+  background-color:#252525;
+}
+
+#threat-management h3 {
+  text-decoration:underline;
+}
+
+#threat-management img {
+  width:100%;
+}
+
+#managed {
+  background-color:#932121;
+  color:white;
+  font-size:18px;
+}
+
+#managed h3 {
+  text-decoration:underline;
+}
+
+#professional {
+  background:url(img/papeldeparede.jpg) center;
+  font-size:22px;
+  padding-bottom:50px;
+}
